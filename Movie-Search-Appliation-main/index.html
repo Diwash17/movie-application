@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movie Search Application</title>
+  </head>
+
+  <!-- Display relevant movie information for each search result, such as the movie title, 
+release year, poster image, and a brief overview. -->
+  <body>
+    <div class="container">
+      <div class="movieheader">
+        <form class="moviesearchform">
+          <input type="text" class="moviesearch" alt="moviesearch" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+      </div>
+
+      <div class="moviebody">
+        <div class="movieposter"></div>
+        <span class="movietitle">
+          <h1><p class="title"></p></h1>
+        </span>
+        <div class="moviedetails">
+          <div class="details">
+            <p class="movie release1">Released</p>
+            <p class="movierelease2"></p>
+          </div>
+          <div class="details">
+            <p class="movie director1">Director</p>
+            <p class="moviedirector2"></p>
+          </div>
+          <div class="details">
+            <p class="movie imdb1">imdB Rating</p>
+            <p class="movieimdb2"></p>
+          </div>
+        </div>
+
+        <div class="movieplot">
+          <p class="plot"></p>
+        </div>
+      </div>
+    </div>
+    <footer class="copyright">
+      <p>&copy; 2024 Diwash Adhikari. All rights reserved.</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/a692e1c39f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
